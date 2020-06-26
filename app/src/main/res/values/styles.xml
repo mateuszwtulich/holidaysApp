@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorAccent">@color/primaryDarkColor</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorAccent">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@drawable/text_input</item>
+        <!--<item name="counterTextColor">@color/primaryDarkColor</item>-->
+        <item name="hintTextColor">@color/primaryDarkColor</item>
+        <item name='android:textCheckMark'>@color/primaryDarkColor</item>
+        <item name="prefixTextColor">@color/primaryDarkColor</item>
+        <item name="suffixTextColor">@color/primaryDarkColor</item>
+        <item name="startIconTint">@color/primaryDarkColor</item>
+        <item name="colorControlActivated">@color/primaryDarkColor</item>
+        <item name="helperTextTextColor">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryDarkColor</item>
+        <item name="android:textColorHint">@color/mtrl_indicator_text_color</item>
+    </style>
+
+    <style name="TextInputEditTextStyle" parent = "Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:colorControlActivated">@color/primaryDarkColor</item>
+        <item name="android:textColorHint">@color/primaryDarkColor</item>
+        <item name="android:colorAccent">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="Widget.MyApp.MyButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primaryDarkColor</item>
+    </style>
+    
+</resources>

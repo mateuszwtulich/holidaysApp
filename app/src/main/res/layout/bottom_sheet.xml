@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/bottom_sheet"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffff"
+              android:orientation="vertical"
+              app:behavior_hideable="false"
+              app:behavior_peekHeight="90dp"
+              android:paddingBottom="10dp"
+              android:paddingTop="10dp"
+              app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:id="@+id/buttonShare"
+            android:drawableLeft="@drawable/ic_share_24px"
+            android:text="Share"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent" android:backgroundTint="@color/white"
+            android:textColor="@color/primaryColor" android:textAlignment="viewStart"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:id="@+id/buttonEdit"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ic_edit_24px"
+            android:text="Edit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white" android:textColor="@color/primaryColor"
+            android:textAlignment="viewStart"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:id="@+id/buttonDelete"
+            android:clickable="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:drawableLeft="@drawable/ic_delete_24px"
+            android:text="Delete" android:layout_height="match_parent"
+            android:backgroundTint="@color/white" android:textColor="@color/primaryColor"
+            android:textAlignment="viewStart"/>
+
+
+</LinearLayout>

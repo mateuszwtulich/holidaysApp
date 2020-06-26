@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Programowanie aplikacji multimedialnych</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">At least one field is empty!</string>
+    <string name="no_chars">Post not saved because it has empty title or description.</string>
+    <string name="example_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis vulputate velit elit, vel maximus lectus consequat at.
+        Donec vulputate viverra lacus non egestas. In blandit faucibus ante.
+        Integer sit amet velit magna. Sed id turpis eu mauris blandit fringilla eget id arcu.
+        Morbi lacinia nisl eget urna suscipit facilisis. Proin id mattis justo, a viverra ante.
+        Donec interdum ipsum varius orci mollis, ultricies porta felis fermentum.
+        Vestibulum a nunc bibendum, facilisis mauris sit amet, iaculis elit.
+    </string>
+    <string name="example_title">Lorem Ipsum</string>
+    <string name="example_date">This week</string>
+    <string name="date_placeholder">DD-MM-YYYY</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_location_search">Map</string>
+</resources>
